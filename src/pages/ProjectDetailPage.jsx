@@ -2,6 +2,12 @@ import React, { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { supabase } from '../supabaseClient';
 import { ExternalLink, Code } from 'lucide-react';
+import profileImg from "../assets/aa.png";
+
+
+
+
+
 
 const ProjectDetailPage = () => {
   const { slug } = useParams();
@@ -78,14 +84,22 @@ const ProjectDetailPage = () => {
         {project.title}
       </h1>
 
-      {/* Author Info (You can customize this) */}
-      <div className="flex items-center gap-3 mb-8">
-        <div className="w-10 h-10 bg-gray-200 dark:bg-gray-700 rounded-full"></div>
-        <div>
-          <p className="text-sm font-medium text-gray-900 dark:text-white">Pratibha</p>
-          <p className="text-xs text-gray-500 dark:text-gray-400">Developer</p>
-        </div>
-      </div>
+   {/* Author Info */}
+<Link to="/about" className="flex items-center gap-3 mb-8 hover:opacity-80 transition">
+  <div className="w-10 h-10 rounded-full overflow-hidden bg-gray-200 dark:bg-gray-700">
+    <img
+      src={profileImg}
+      alt="Pratibha's Profile"
+      className="w-full h-full object-cover"
+    />
+  </div>
+  <div>
+    <p className="text-sm font-medium text-gray-900 dark:text-white">Pratibha</p>
+    <p className="text-xs text-gray-500 dark:text-gray-400">Developer</p>
+  </div>
+</Link>
+
+
 
       {/* Overview Section */}
       <section className="mb-12">
