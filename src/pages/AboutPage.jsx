@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Github, Database, Coffee, Leaf } from "lucide-react";
+import profileImg from "../assets/aa.png";
+
 
 
 const AboutPage = () => {
@@ -10,12 +12,13 @@ const AboutPage = () => {
         <div className="w-full md:w-1/3 flex justify-center">
           <div className="relative">
             <img 
-              src="src/assets/aa.png" 
-              alt="Pratibha's Profile" 
-              width={340} 
-              height={340}
-              className="rounded-xl transition-transform duration-500 hover:scale-105"
+            src={profileImg}
+            alt="Pratibha's Profile"
+            width={340}
+            height={340}
+            className="rounded-xl transition-transform duration-500 hover:scale-105"
             />
+
           </div>
         </div>
         <div className="w-full md:w-2/3 flex flex-col justify-center">
@@ -28,7 +31,7 @@ const AboutPage = () => {
           <div className="flex items-center gap-4 mt-6">
             <a
               className="text-gray-900 dark:text-white hover:text-gray-600 dark:hover:text-gray-300 transition-colors duration-300"
-              href="https://github.com/Anjila-26"
+              href="https://github.com/pratzz-00"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="GitHub"
@@ -47,22 +50,18 @@ const AboutPage = () => {
               </svg>
             </a>
             <a
-              className="text-gray-900 dark:text-white hover:text-gray-600 dark:hover:text-gray-300 transition-colors duration-300"
-              href="#"
-              aria-label="Twitter"
-            >
-              <svg
-                aria-hidden="true"
-                className="h-6 w-6"
-                fill="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path d="M22.46 6c-.77.35-1.6.58-2.46.67.88-.53 1.56-1.37 1.88-2.38-.83.49-1.75.85-2.72 1.05C18.37 4.5 17.26 4 16 4c-2.35 0-4.27 1.92-4.27 4.29 0 .34.04.67.11.98-3.54-.18-6.69-1.87-8.8-4.46-.37.63-.58 1.37-.58 2.15 0 1.49.75 2.81 1.91 3.56-.71 0-1.37-.22-1.95-.55v.05c0 2.08 1.48 3.82 3.44 4.21a4.22 4.22 0 0 1-1.94.07 4.28 4.28 0 0 0 4 2.98 8.521 8.521 0 0 1-5.33 1.84c-.34 0-.68-.02-1.02-.06C3.44 20.29 5.7 21 8.12 21 16 21 20.33 14.46 20.33 8.79c0-.19 0-.37-.01-.56.84-.6 1.56-1.36 2.14-2.23z" />
-              </svg>
-            </a>
+             href="mailto:sheoran121ps@gmail.com"
+             className="text-gray-900 dark:text-white hover:text-gray-600 dark:hover:text-gray-300 transition-colors duration-300"
+             aria-label="Gmail"
+             >
+              <svg className="h-6 w-6" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"/>
+                </svg>
+                </a>
+
             <a
               className="text-gray-900 dark:text-white hover:text-gray-600 dark:hover:text-gray-300 transition-colors duration-300"
-              href="https://www.linkedin.com/in/anjila-subedi-067a6a1a0/"
+              href="https://www.linkedin.com/in/pratibha-10b71321a/"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="LinkedIn"
