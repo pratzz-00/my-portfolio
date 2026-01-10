@@ -188,7 +188,7 @@ This project is open source and available under the [MIT License](LICENSE).
 **Pratibha**
 
 - LinkedIn: [Pratibha](https://www.linkedin.com/in/pratibha-10b71321a/)
-- Portfolio: [Your Live Site](https://pratibha-alpha.vercel.app/)
+- Portfolio: [Pratibha Portfolio](https://pratibha-alpha.vercel.app/)
 
 
 ---
