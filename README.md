@@ -47,54 +47,21 @@ A modern, full-stack portfolio website built with React, Tailwind CSS, and Supab
 - **Vercel** - Frontend hosting
 - **Supabase Cloud** - Database and auth
 
-## 📁 Project Structure
-```
-my-portfolio/
-├── public/              # Static assets
-├── src/
-│   ├── admin/          # Admin panel components
-│   │   ├── AdminLogin.jsx
-│   │   ├── AdminDashboard.jsx
-│   │   ├── ProjectsAdmin.jsx
-│   │   ├── BlogAdmin.jsx
-│   │   └── MessagesAdmin.jsx
-│   ├── components/     # Reusable components
-│   │   ├── Navbar.jsx
-│   │   ├── Footer.jsx
-│   │   └── ProjectCard.jsx
-│   ├── pages/          # Page components
-│   │   ├── HomePage.jsx
-│   │   ├── AboutPage.jsx
-│   │   ├── ProjectsPage.jsx
-│   │   ├── ProjectDetailPage.jsx
-│   │   ├── BlogPage.jsx
-│   │   ├── BlogPostPage.jsx
-│   │   └── ContactPage.jsx
-│   ├── App.jsx         # Main app component
-│   ├── main.jsx        # Entry point
-│   ├── supabaseClient.js  # Supabase configuration
-│   └── index.css       # Global styles
-├── .env                # Environment variables
-├── package.json        # Dependencies
-└── vite.config.js      # Vite configuration
-```
+
 
 ## 🖼️ Screenshots
 
 ### Homepage
-![Homepage](screenshots/homepage.png)
+<img width="900" height="400" alt="image" src="https://github.com/user-attachments/assets/76d0ff2f-a060-43c3-8488-3ad0cb1b310f" />
 
-### Projects Page
-![Projects](screenshots/projects.png)
+### About Page
+<img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/ab19dd28-0a14-418d-8021-dcf04f49826b" />
 
-### Project Detail Page
-![Project Detail](screenshots/project-detail.png)
 
 ### Admin Dashboard
-![Admin Panel](screenshots/admin.png)
+<img width="900" height="400" alt="image" src="https://github.com/user-attachments/assets/2982013b-7cc7-4794-ad18-816d0e73e35c" />
 
-### Dark Mode
-![Dark Mode](screenshots/dark-mode.png)
+
 
 ## 🚀 Getting Started
 
